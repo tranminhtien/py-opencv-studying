@@ -1,0 +1,9 @@
+Bài tập 5:
+Nếu ảnh đầu vào có kích thước 32x32x3 (width x heigh x channel)
+1. Đầu tiên áp dụng convolution với thông số như sau: strike=1, padding =1, kernel size = 3x3, number of kernal = 64. Thì kích thước đầu ra conv1 là gì?
+2. Áp dụng convolution trên conv1, với tham số như sau: strike=1, padding = 1, kernel size = 3x3, number of kernal = 64, thì kích thước đầu ra conv2 là gì?
+3. Áp dụng relu trên đầu ra conv2, thì kích thước đầu ra relu1 là bao nhiêu.
+4. Áp dụng pooling trên relu1 với thông số: strike = 2, padding =0, kernal size = 2x2. Kích thước đầu ra pool1 là gì?
+5. Lại áp dụng convolution trên pool1 với thông số như sau: strike = 2, padding = 0, kernel size = 4x4, number of kernel = 128. Thì kích thước đầu ra conv3 là gì?
+6. Bây giờ ta muốn đầu ra convF có kích thước là 1x1x2048, vậy ta phải làm như thế nào và thông số các lớp phải như thế nào?
+7. Áp dụng fully connected layer trên convF với hàm kích hoạt sigmoid với tham số là number of output là 10. Bên cạnh đó để tăng độ chính xác của mô hình người ta còn áp dụng drop out với tỉ lệ 50%. Vậy cho biết nó được thực hiện như thế nào và hãy giải thích ý nghĩa của hành động drop out này?
